@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: brown;">
+    
+    <h1 id="ime" style="text-align: center;"></h1>
+    <hr>
+    <p id="age" style="font-size: 40px;"></p>
+    <hr>
+    <p id="collage" style="background-color: rgb(204, 127, 255);"></p>
+    <script>
+        var firstName="Kenan";
+        var lastName="Huremović";
+        var age=21;
+        var collage="FSK";
+        var indexNumber=8138;
+
+        document.getElementById("ime").innerHTML=firstName +" "+ lastName
+        document.getElementById("age").innerHTML="Godina: " + age;
+        document.getElementById("collage").innerHTML="Fskultet: " + collage;
+        alert("Prikazuju se lični podaci koji podliježu zakonu o zasštiti ličnih podataka.Želite li nastaviti?");
+    </script>
+</body>
+</html>
